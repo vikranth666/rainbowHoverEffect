@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rainbow Text Shadow</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style media="screen">
+    * {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body {
+background-color: #1f1e1e;
+}
+h1 {
+color: #ffffff;
+font-family: "Poppins", sans-serif;
+text-transform: uppercase;
+position: absolute;
+transform: translate(-50%, -50%);
+top: 50%;
+left: 50%;
+font-size: 70px;
+letter-spacing: 0.2em;
+cursor: pointer;
+transition: text-shadow 1s;
+}
+h1:hover {
+text-shadow: 0.04em 0.04em #fc0049,
+        0.08em 0.08em #fe8f01,
+        0.12em 0.12em #fdf21f,
+        0.16em 0.16em #3fdf4b,
+        0.2em 0.2em #3462fe;
+}
+    </style>
+  </head>
+  <body>
+    <h1>VIKRANTH</h1>
+  </body>
+</html>
